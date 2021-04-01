@@ -1,0 +1,16 @@
+channels:
+  - defaults
+  - anaconda 
+  - pytorch 
+  - conda-forge
+  - kayarre
+dependencies:
+  - pytorch=1.1.0
+  - matplotlib
+  - numpy
+  - pynrrd
+  - nibabel 
+  - python=3.6
+  - ipython
+  - pip:
+    - gitpython
